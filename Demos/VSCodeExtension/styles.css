@@ -1,0 +1,22 @@
+/* This is a CSS comment */
+/* ? Question comment */
+/* ! Alert comment */
+/* TODO to-do comment */
+/* * Another regular comment */
+
+body
+{
+    background-color: pink;
+}
+
+h1
+{
+    color: white;
+    background-color:black;
+    padding: 1rem;
+}
+
+ul
+{
+    font-family: 'Courier New', Courier, monospace;
+}

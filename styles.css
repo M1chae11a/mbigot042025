@@ -1,0 +1,118 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a:link {
+  color: #56383a;
+}
+
+a:visited {
+  color: #deaabb;
+}
+
+body {
+  background-color: #131310;
+  color: #56383a;
+}
+
+.container {
+  min-height: 10rem;
+  max-width: 75rem;
+  margin: auto;
+  background-color: #f7eee0;
+  padding: 1rem;
+}
+
+#pageheader {
+  background-color: #131310;
+  min-height: 10rem;
+  padding: 1rem;
+  min-height: auto;
+}
+
+#logo {
+  width: 6.25rem;
+  height: 6.25rem;
+  background-image: url(Images/finallogo.png);
+}
+
+#pageheader .container {
+  background-color: #0e0e15;
+  min-height: auto;
+  text-align: center;
+  color: burlywood;
+}
+
+#media {
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(Images/heroimage.png);
+  background-size: cover;
+  aspect-ratio: 16/9;
+}
+
+#pagecontent {
+  background-color: #889c7a;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+blockquote {
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+  font-size: 1.25rem;
+}
+
+blockquote + span {
+  padding: 1rem;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: right;
+}
+
+#career {
+  background-color: #deaabb;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#semester1 {
+  background-color: #deaabb;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#semester2 {
+  background-color: honeydew;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#pagefooter {
+  background-color: #889c7a;
+  min-height: auto;
+  padding: 1rem;
+  color: burlywood;
+}
+
+#pagefooter .container {
+  text-align: center;
+  min-height: auto;
+}
+
+#subfooter {
+  background-color: #131310;
+  min-height: 10rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+audio {
+  display: block;
+  margin: auto;
+  background-color: burlywood;
+  border: 5px solid burlywood;
+  border-radius: 10px;
+}

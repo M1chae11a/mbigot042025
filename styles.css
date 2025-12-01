@@ -1,70 +1,84 @@
-html {
+html
+{
   scroll-behavior: smooth;
 }
 
-a:link {
+a:link
+{
   color: #56383a;
 }
 
-a:visited {
+a:visited
+{
   color: #deaabb;
 }
 
-body {
-  background-color: #131310;
+body
+{
+  background-color: #0e0e15;
   color: #56383a;
 }
 
-.container {
+.container
+{
   min-height: 10rem;
   max-width: 75rem;
   margin: auto;
   background-color: #f7eee0;
   padding: 1rem;
+  border-radius: 20px;
 }
 
-#pageheader {
+#pageheader
+{
   background-color: #131310;
   min-height: 10rem;
   padding: 1rem;
   min-height: auto;
 }
 
-#logo {
+#logo
+{
   width: 6.25rem;
   height: 6.25rem;
   background-image: url(Images/finallogo.png);
 }
 
-#pageheader .container {
+#pageheader .container
+{
   background-color: #0e0e15;
   min-height: auto;
   text-align: center;
   color: burlywood;
 }
 
-#media {
+#media
+{
   min-height: 10rem;
   padding: 1rem;
   background-image: url(Images/heroimage.png);
   background-size: cover;
   aspect-ratio: 16/9;
+    border-radius: 20px;
 }
 
-#pagecontent {
-  background-color: #889c7a;
+#pagecontent
+{
+  background-color: #0e0e15;
   min-height: 10rem;
   padding: 1rem;
 }
 
-blockquote {
+blockquote
+{
   padding: 1rem;
   width: 50%;
   margin: auto;
   font-size: 1.25rem;
 }
 
-blockquote + span {
+blockquote + span
+{
   padding: 1rem;
   display: block;
   width: 50%;
@@ -72,44 +86,63 @@ blockquote + span {
   text-align: right;
 }
 
-#career {
-  background-color: #deaabb;
+#career
+{
+  background-color: #0e0e15;
   min-height: 10rem;
   padding: 1rem;
 }
 
-#semester1 {
-  background-color: #deaabb;
+#semester1
+{
+  background-color: #0e0e15;
   min-height: 10rem;
   padding: 1rem;
 }
 
-#semester2 {
-  background-color: honeydew;
+#semester2
+{
+  background-color: 0e0e15;
   min-height: 10rem;
   padding: 1rem;
 }
 
-#pagefooter {
-  background-color: #889c7a;
+#pagefooter
+{
+  background-color: #0e0e15;
   min-height: auto;
   padding: 1rem;
   color: burlywood;
 }
 
-#pagefooter .container {
+#pagefooter .container
+{
   text-align: center;
   min-height: auto;
 }
 
-#subfooter {
-  background-color: #131310;
+#aifooter
+{
+  padding: 1rem;
+  min-height: auto;
+}
+
+#aifooter .container
+{
+  text-align: center;
+  min-height: auto;
+}
+
+#subfooter
+{
+  background-color: #0e0e15;
   min-height: 10rem;
   padding: 1rem;
   text-align: center;
 }
 
-audio {
+audio
+{
   display: block;
   margin: auto;
   background-color: burlywood;

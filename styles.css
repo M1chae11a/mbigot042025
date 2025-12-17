@@ -52,6 +52,32 @@ body
   color: burlywood;
 }
 
+#pageheader nav
+{
+  text-align: center;
+}
+
+#pageheader nav ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#pageheader nav ul li
+{
+  border: 2px solid burlywood;
+  padding: 1rem;
+  background-color: #f7eee0;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+#pageheader nav ul li:hover
+{
+  background-color: burlywood;
+}
+
 #media
 {
   min-height: 10rem;
@@ -131,6 +157,7 @@ blockquote + span
 {
   text-align: center;
   min-height: auto;
+  color: burlywood;
 }
 
 #subfooter
@@ -148,4 +175,17 @@ audio
   background-color: burlywood;
   border: 5px solid burlywood;
   border-radius: 10px;
+}
+
+@media screen and (min-width: 600px)
+{
+  #pageheader nav ul
+  {
+    margin-top: 2rem;
+  }
+
+  #pageheader nav ul li
+  {
+    display:inline-block;
+  }
 }

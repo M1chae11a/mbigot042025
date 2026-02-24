@@ -1,3 +1,4 @@
+/* Mobile View - Default */
 html
 {
   scroll-behavior: smooth;
@@ -31,7 +32,6 @@ body
 
 #pageheader
 {
-  background-color: #131310;
   min-height: 10rem;
   padding: 1rem;
   min-height: auto;
@@ -42,6 +42,7 @@ body
   width: 6.25rem;
   height: 6.25rem;
   background-image: url(Images/finallogo.png);
+  margin: auto;
 }
 
 #pageheader .container
@@ -177,6 +178,7 @@ audio
   border-radius: 10px;
 }
 
+/* Tablet View */
 @media screen and (min-width: 600px)
 {
   #pageheader nav ul
@@ -188,4 +190,11 @@ audio
   {
     display:inline-block;
   }
+
+  #logo{
+    margin: 0;}
 }
+
+/* Desktop View */
+@media screen and (min-width: 1000px)
+{}

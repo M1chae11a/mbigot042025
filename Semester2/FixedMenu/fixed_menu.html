@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Menu</title>
+    <style>
+        /* Mobile First CSS */
+        html{
+            /* Temporary - Delete */
+            height: 200%;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: pink;
+            margin: 0;
+        }
+
+        #pageheader{
+            background-color: #1C1C1C;
+            padding: 1rem;
+            /* Default */
+            position: static;
+        }
+        
+        #logo {
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            display: block;
+        }
+        #fblogoheader{
+            background-color: #1C1C1C;
+        }
+        #pageheader h1{
+            text-align: center;
+            color: white;
+            /* Remove */
+            background-color: #1C1C1C;
+        }
+        #pageheader nav{
+            background-color: 1C1C1C;
+            padding: .5rem;
+            border-radius: 10px;
+        }
+        #pageheader ul{
+            padding: .5rem;
+            list-style-type: none;
+            background-color: #FDFDFD;
+            /* Flexbox component */
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+        }
+        #pageheader li{
+            text-align: center;
+            border: 1px solid white;
+            padding: .5rem;
+            background-color: #F87001;
+        }
+        #pageheader a{
+            color: white;
+            text-decoration: none;
+        }
+        /* None header elements */
+        main{
+            padding: 1rem;
+        }
+        p{
+            line-height: 1.5;
+            color: #333;
+        }
+
+        @media screen and (min-width:650px)
+        {
+            body{background-color: #F87001;}
+
+            #pageheader
+            {
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                /* Flexbox component */
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            #fblogoheader
+            {
+                /* Flexbox component */
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+            }
+
+            #pageheader ul
+            {
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            #pageheader nav
+            {
+                min-width: 400px;
+            }
+
+            #logo
+            {
+                height: 80px;
+                width: 80px;
+            }
+
+            main
+            {
+                padding-top: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="pageheader">
+
+<!-- Start the logo and h1 -->
+<div id="fblogoheader">
+<img src="Images/paws_logo.png" alt="Paws and Whiskers Logo" id="logo">
+<h1>Paws and Whiskers</h1>
+</div>
+<!-- End the logo and h1 -->
+
+<!-- Start Navigation -->
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our Pets</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">About Us</a></li>
+    </ul>
+</nav>
+<!-- End Navigation -->
+</header>
+
+<main>
+    <h2>Fixed Menu</h2>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi asperiores quibusdam sunt perferendis quos sit dolorum temporibus vitae? Atque eligendi illum fugiat cum sed soluta quam obcaecati, cumque, optio amet eum ipsum ratione tenetur. Illo, temporibus doloremque ea explicabo tempora blanditiis obcaecati cum unde quam dicta. Facilis asperiores itaque esse et dicta sunt quia praesentium molestiae eos eaque aut, accusantium eius tenetur consectetur expedita debitis in porro a voluptas, nostrum magni. Autem doloremque facilis exercitationem. Numquam odio dolorem quibusdam expedita, labore accusamus sunt libero sequi cum blanditiis totam voluptas fuga eveniet soluta, molestiae iusto provident. Tempora voluptatibus inventore quasi libero.
+    </p>
+</main>
+
+</body>
+
+</html>

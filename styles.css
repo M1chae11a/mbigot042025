@@ -11,7 +11,7 @@ a:link
 
 a:visited
 {
-  color: #deaabb;
+  color: #9A1B53;
 }
 
 body
@@ -169,7 +169,7 @@ blockquote + span
   text-align: center;
 }
 
-audio
+.card
 {
   display: block;
   margin: auto;

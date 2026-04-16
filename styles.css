@@ -195,6 +195,14 @@ blockquote + span
     margin: 0;}
 }
 
+.texturina-headers
+{
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
 /* Desktop View */
 @media screen and (min-width: 1000px)
 {}

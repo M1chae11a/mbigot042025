@@ -14,6 +14,19 @@ a:visited
   color: #9A1B53;
 }
 
+ul
+  {
+    list-style: none;
+  }
+
+ul i
+  {
+  font-size: .7rem;
+  padding-right: .5rem;
+  padding-bottom: .4rem;
+  color: burlywood;
+  }
+
 body
 {
   background-color: #0e0e15;
@@ -81,12 +94,14 @@ body
 
 #media
 {
-  min-height: 10rem;
+  /* min-height: 10rem; */
+  height: 50vh;
+  background-position: center center;
   padding: 1rem;
-  background-image: url(Images/heroimage.png);
+  background-image: url(Images/forestheroimage.jpg);
   background-size: cover;
-  aspect-ratio: 16/9;
-    border-radius: 20px;
+  border-radius: 20px;
+  /* aspect-ratio: 16/9; */
 }
 
 #pagecontent
@@ -113,6 +128,11 @@ blockquote + span
   text-align: right;
 }
 
+p
+{
+  line-height: 1.7rem;
+}
+
 #career
 {
   background-color: #0e0e15;
@@ -128,6 +148,20 @@ blockquote + span
 }
 
 #semester2
+{
+  background-color: 0e0e15;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#worksamples
+{
+  background-color: 0e0e15;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#certificates
 {
   background-color: 0e0e15;
   min-height: 10rem;
